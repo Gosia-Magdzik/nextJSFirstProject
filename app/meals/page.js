@@ -1,4 +1,8 @@
+import classes from './page.module.css'
 
 export default function Meals() {
-    return <div>Meals</div>
+    return <>
+        <header></header>
+        <main></main>
+    </>
 }
