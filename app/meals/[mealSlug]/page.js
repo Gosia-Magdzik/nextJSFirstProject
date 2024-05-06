@@ -1,7 +1,10 @@
+import { getMeal } from '@/lib/meals';
 import classes from './page.module';
 import Image from 'next/image';
 
 export default function MealDetailsPage() {
+    const meal = getMeal()
+
     return <>
         <header className={classes.header}>
             <div className={classes.image}>
