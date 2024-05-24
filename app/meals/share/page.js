@@ -13,6 +13,8 @@ export default function ShareMealPage() {
       creator: formData.get('name'),
       creator_email: formData.get('email')
     }
+
+    console.log(meal);
   }
 
   return (
